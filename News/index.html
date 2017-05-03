@@ -3,16 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Diego</title>
+
+
+    <!--Hojas de Estilo-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/estilos.css"></link>
+
     <!--Angular Scripts-->
     <script src="bower_components/angular/angular.min.js"></script>
 
-
     <!--Aplicacion Script-->
     <script src="app/app.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </head>
-<body ng-app>
-<input type="text" ng-model="mm">
-{{mm}}
+<body ng-app="primerModulo">
+
+<div class="container">
+    <div class="row">
+        <fieldset class="titulo">
+            <legend>Destacados</legend>
+        </fieldset>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="..." alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>...</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#"
+                                                                                           class="btn btn-default"
+                                                                                           role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
