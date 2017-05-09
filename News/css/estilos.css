@@ -1,3 +1,19 @@
 .titulo {
     color: steelblue;
 }
+.banner{
+    height: 200px;
+}
+.fecha{
+    font-size: small;
+    color: darkgray;
+    float: left;
+
+}
+.bannerSmall{
+    width: 150px; height: 10px;
+}
+.Dtitulo{
+    font-size: large;
+    color: #00b3ee;
+}
