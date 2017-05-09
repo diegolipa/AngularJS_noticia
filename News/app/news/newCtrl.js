@@ -305,8 +305,5 @@
 
             ]
 
-            me.categoria = ["Politica", "Economia", "Deportes", "Moda", "Mundo"]
-
-
         }
 }());
