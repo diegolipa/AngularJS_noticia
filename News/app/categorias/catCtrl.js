@@ -7,9 +7,15 @@
     angular.module("primerModulo")
         .controller("catCtrl", catCtrl);
 
-        function catCtrl () {
+        function catCtrl (categoriaService) {
             var me = this;
-            me.categoria = ["Politica", "Economia", "Deportes", "Moda", "Mundo"];
+
+            categoriaService.then(function (response) {
+                me.categoria = response.data;
+            })
+
+
+                //["Politica", "Economia", "Deportes", "Moda", "Mundo"];
 
 
             me.showCategorias = false;

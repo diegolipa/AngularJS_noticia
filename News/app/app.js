@@ -3,6 +3,6 @@
  */
 (function () {
     "use strict";
-    var app = angular.module("primerModulo", []);
+    var app = angular.module("primerModulo", ["comunService", "comunServiceMock"]);
 
 }());
